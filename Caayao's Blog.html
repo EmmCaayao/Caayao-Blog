@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #F0EBE3;
+            color: #333;
+            text-align: center;
+            font-size: 22px; 
+        }
+        header, footer {
+            background-color: #CD5C5C;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 22px; 
+        }
+        h1, h2, h3 {
+            color: #CD5C5C;
+            margin-bottom: 10px;
+            font-size: 38px;
+        }
+        nav {
+            margin: 10px auto;
+        }
+        nav a {
+            color: #CD5C5C;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 20px;
+            font-size: 26px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .profile-picture img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 3px solid #CD5C5C;
+            max-width: 100%;
+            height: auto;
+        }
+        .description {
+            margin: 30px 0;
+        }
+        .description i {
+            font-style: italic;
+            color: #333;
+            display: block;
+            margin-bottom: 30px;
+        }
+        .about-me {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 20px;
+            padding: 20px;
+        }
+        .about-me img {
+            max-width: 40%;
+            border-radius: 10px;
+            border: 3px solid #CD5C5C;
+            height: auto;
+            margin: 0 20px;
+        }
+        ul {
+            margin: 40px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .hobbies-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .hobbies-images-beside img {
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            border: 3px solid #CD5C5C;
+            margin-bottom: 40px;
+            margin-right: 20px;
+        }
+        .hobbies-list {
+            max-width: 45%;
+            margin: 0 auto;
+        }
+        .hobbies-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hobbies-list li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+        .hobbies-list li:before {
+            content: "☆";
+            margin-right: 10px;
+            color: #CD5C5C;
+            font-weight: bold;
+        }
+        .footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin: 10px 0;
+        }
+        table {
+            width: calc(100% - 40px);
+            margin: 20px auto;
+            border-collapse: collapse;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        th, td {
+            border: 1px solid #CD5C5C;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #CD5C5C;
+            color: white;
+        }
+        a {
+            color: #CD5C5C;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#">HOME</a> | <a href="#">BLOG</a> | <a href="#">CONTACT ME</a>
+    </nav>
+
+    <div class="content-container">
+        <div class="profile-picture">
+            <img src="Caayao_EmmKatrina.jpg" width="400" height="400">
+        </div>
+
+        <div class="description">
+            <br> <br> <i>"I’ll give you my wings, so you can rise above the clouds I once dreamed of reaching," <br> —My Big Brother <br>
+            he spoke, his hand resting on my head. Those words reminded me of where I came from and why I keep fighting.</i> <br> <br>
+            
+            <h2>Hi! I'm Emm,</h2>
+            <p>Welcome to my blog. I am a 20-year-old, 3rd-year BSIS college student at the Technological University of the Philippines, Manila.</p>
+            <p>I am an amateur programmer in C, C++, and Python.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>About Me:</h2>
+    <div class="about-me">
+        <p>I chose to pursue a degree in Information Systems due to its affordability and practical opportunities. Though my true passion lies in art and creative expression, I integrate creativity into my technical projects. <br> <br> Programming has unexpectedly become an enjoyable and valuable skill in my life.</p>
+        <img src="Me.jpg" width="400" height="250">
+    </div>
+
+    <hr>
+
+    <h2>A Little More About Me!</h2>
+    <div class="about-me">
+        <p>I'm introverted by nature but can be outgoing when needed. I prefer staying home but enjoy a close-knit circle of friends and a supportive family. I'm also very work-oriented, maintaining high standards in everything I do. <br> <br> I love doodling—on paper, notes, and even my friends. Stars are my favorite doodle!</p>
+        <img src="Mee2.jpg" width="400" height="250">
+    </div>
+
+    <hr>
+
+    <h2>My Hobbies:</h2>
+    <div class="hobbies-container">
+        <div class="hobbies-list">
+            <ul>
+                <li>Digital and traditional drawing</li>
+                <li>Character designing</li>
+                <li>Reading Webtoons</li>
+                <li>Watching Anime (One Piece: Dressrosa Arc)</li>
+                <li>Doodling!</li>
+            </ul>
+        </div>
+        <div class="hobbies-images-beside">
+            <img src="DrawingMe.jpg" width="300" height="300">
+        </div>
+    </div>
+
+    <div class="hobbies-images-below">
+        <img src="LexCommission1.png" width="350" height="350">
+        <img src="AcaCom-1.png" width="350" height="350">
+        <img src="AcaCom1.png" width="350" height="350">
+        <img src="TsukkiCom1.png" width="350" height="350">
+    </div>
+
+    <hr>
+    <h2>My Skills:</h2>
+    <ul>
+        <li>C Language, C++, Python</li>
+        <li>Digital and Traditional Drawing</li>
+        <li>Character Designing</li>
+        <li>Freelance Art Commissioner</li>
+    </ul>
+        <hr>
+        <h2>My Projects:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Object Oriented Programming</td>
+                    <td>Activity#4 Encryption Program</td>
+                    <td>This Python program creates a GUI application using Tkinter to encrypt messages with a transposition cipher based on a user-provided key.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_EmmKatrina_Activity_4.py">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Object Oriented Programming</td>
+                    <td>Final Project</td>
+                    <td>This Python program offers a console-based menu system with various functions: a season checker, a number list analyzer, a shopping list manager, and a programmer's profile.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_EmmKatrina_FinalProject.py">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Data Structures and Algorithms</td>
+                    <td>Hotel Reservation Program</td>
+                    <td>This C++ program for hotel reservations allows users to select the room type, view check-in and check-out times, and see prices and downpayment details.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Team-D-Hotel-Reservation-Program.c">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Data Structures and Algorithms</td>
+                    <td>Mid Terms Project</td>
+                    <td>This C++ program prompts the user to input five integers, determines the highest value among them, displays the result, and offers the option to repeat the process.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_MidTerms_Coding.c">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Computer Programming 1</td>
+                    <td>Student Record Program</td>
+                    <td>This C program allows the user to manage a class list by setting the class size, inputting student names and grades, displaying the list, editing student details, and saving the data to a file.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_EmmKatrina_Student_Record_Program.c">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Computer Programming 1</td>
+                    <td>Math Tutor V.2.0</td>
+                    <td>This C program allows users to practice addition, subtraction, multiplication, and division problems, track their scores, and choose to repeat or exit the practice.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_EmmKatrina_MATH_TUTOR_2.0.c">Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="footer">
+            <p>Contact me:</p>
+            <p>School Email: emmkatrina.caayao@tup.edu.ph</p>
+            <p>Professional Email: emmcaayao33@gmail.com</p>
+            <p>Contact Number/WhatsApp: 09954992656</p>
+            <p>Facebook/Messenger: Emm Katrina Caayao</p>
+    </footer>
+</body>
+</html>

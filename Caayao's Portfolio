@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body bgcolor="#CD5C5C">
+
+    <h1>
+        <center>My Portfolio</center>
+    </h1>
+
+    <div>
+        <center><b>HOME &nbsp; &nbsp; PROJECT &nbsp; &nbsp; SKILLS &nbsp; &nbsp; CONTACT ME</b></center>
+    </div>
+
+    <br><hr><br>
+    <div>
+        <center><img src="Caayao_EmmKatrina.jpg" alt="Your Picture" width="300" height="300"></center>
+    </div>
+    <div>
+
+        <div>
+            <center><h2>Hi! I'm  <font color=white> Emm</font>,</h2></center>
+            <center><p>Welcome to my portfolio. I am a 20-year-old, 3rd year BSIS college student of the Technological University of the Philippines, Manila.</p></center>
+            <center><p>I am an amatuer programmer ranging from C, C++, and python.</p></center>
+        </div>
+<hr>
+        <h2>
+            My Skills:
+        </h2>
+
+        <ul>
+            <li>C Language, C++, python</li>
+            <li>Digital and Traditional Drawing</li>
+            <li>Character Designing</li>
+            <li>Freelance Art Commissioner</li>
+        </ul>
+
+    </div>
+
+    <div>
+        <h2>Projects:</h2>
+        <table border="2" cellpadding="15" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Subject</th> 
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Object Oriented Programming</td>
+                    <td>Activity#4 Encryption Program</td>
+                    <td>This is a python program creates a simple GUI application using tkinter to encrypt a message using a transposition cipher based on a user-provided key.</td>
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/blob/main/Caayao_EmmKatrina_Activity_4.py">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Object Oriented Programming</td> 
+                    <td>Final Project</td>
+                    <td>This a python program that implements a console-based menu system that allows the user to choose between different programs: a season checker based on the month, a number list analyzer to find the most common number, a shopping list manager, and a programmer's profile.</td> 
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/commit/6f73026ddde2a08c471d6ba219aa9559bbf9d101">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Data Structures and Algorithms</td> 
+                    <td>Hotel Reservation Program</td>
+                    <td>This is a C++ program for hotel reservations, where the user can select the room type, view the check-in and check-out times, and see the prices and downpayment.</td> 
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/commit/3b02d2486f69db8df6a3aabbf7c09333693323a7">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Data Structures and Algorithms</td> 
+                    <td>Mid Terms Project</td>
+                    <td>This is a C++ program that prompts the user to input five integers, determines the highest value among them, displays the result, and then offers the option to repeat the process.</td> 
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/commit/7f452d6119c2e9027033fdf1b69b34c2315c7239">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Computer Programming 1</td> 
+                    <td>Student Record Program</td>
+                    <td>This is a C program that allows the user to manage a class list by setting the class size, inputting student names and grades, displaying the list, editing student details, and saving the data to a file.</td> 
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/commit/76b669da30a36185f71fef89d6b68d730edfda3f">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Computer Programming 1</td> 
+                    <td>Math Tutor V.2.0</td>
+                    <td>This is a C program allows users to practice addition, subtraction, multiplication, and division problems, track their scores, and choose to repeat or exit the practice.</td> 
+                    <td><a href="https://github.com/EmmCaayao/Emm-s-Programs/commit/3279228560bdc6c05b42d89d8c1943e0aab0e39f">Link</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <br><hr><br>
+    <h2>
+        Contact me:
+    </h2>
+
+    <ul>
+        <li>School Email: emmkatrina.caayao@tup.edu.ph</li>
+        <li>Professional Email: emmcaayao33@gmail.com</li>
+        <li>Contact Number/WhatsApp: 09954992656</li>
+        <li>Facebook/Messenger: Emm Katrina Caayao</li>
+    </ul>
+    <footer>
+        <p>Copyright Infringement©</p>
+        <p><a href="https://github.com/EmmCaayao">https://github.com/EmmCaayao</a></p>
+      </footer>
+
+</body>
+</html>
